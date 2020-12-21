@@ -1,10 +1,3 @@
-/*
- * Reserva.h
- *
- *  Created on: 1 dic. 2020
- *      Author: Jose Carlos Cobos Lopez
- */
-
 #ifndef RESERVA_H_
 #define RESERVA_H_
 
