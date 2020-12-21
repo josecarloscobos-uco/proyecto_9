@@ -1,5 +1,6 @@
 #ifndef _MONITOR_
 #define _MONITOR_
+
 #include <string>
 #include <list>
 #include "Ruta.h"
