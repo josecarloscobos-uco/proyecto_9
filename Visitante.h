@@ -1,10 +1,3 @@
-/*
- * Visitante.h
- *
- *  Created on: 1 dic. 2020
- *      Author: Jose Carlos Cobos Lopez
- */
-
 #ifndef VISITANTE_H_
 #define VISITANTE_H_
 
@@ -37,8 +30,13 @@ public:
 
 	void pedirReserva();
 	void cambiarReserva();
-	void pedirCambioDatos();
+	void pedirCambioDatos(){
+        setDNI();
+        setNombre();
+        setApellidos();
+        setTelefono();
+        setProblema();
+    }
 };
 
 #endif /* VISITANTE_H_ */
-
