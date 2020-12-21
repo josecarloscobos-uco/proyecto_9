@@ -53,6 +53,11 @@ class Monitor{
 			if((ruta.getDificultad()!="Facil") && (ruta.getDificultad()!="Intermedio") && (ruta.getDificultad()!="Dificil")){return false;}
 			if((isdigit(ruta.getCantidad())!=0)){return false;}
 			if((ruta.getRealizacion()!="A pie") && (ruta.getRealizacion()!="Con bicicleta")){return false;}
+			for(list <Ruta>::iterator i=rutas.begin(); i!=rutas.end(); i++){
+				if(i->getCodigo()==ruta.getCodigo()){
+					return false;
+				}
+			}
 			rutas.push_back(ruta);
 			return true;
 		}
