@@ -10,7 +10,7 @@ using namespace std;
 class Parque{
 	private:
 		string ubicacion_, superficie_, fecha_, reconocimiento_;
-		list <Parque> parques; //Aqui se pondrían todos los parques
+		list <Parque> parques; //Aqui se pondrÃ­an todos los parques
 	public:
 		Parque(string ubicacion="", string superficie="",string fecha="", string reconocimiento=""){
 			ubicacion_=ubicacion;
@@ -37,7 +37,7 @@ class Parque{
 			parques.push_back(p);
 			for(list <Parque>::iterator i=parques.begin(); i!=parques.end(); i++){
 				if(i->getUbicacion()==ubicacion){
-					/*A continuacion se imprimirarn las caracteristicas del parque
+					/*A continuacion se imprimiran las caracteristicas del parque
 					cout<<"Caracteristicas del parque con ubicacion: "<<UBICACION<<endl;
 					cout<<"Superficie: "<<i->getSuperficie()<<endl;
 					cout<<"Fecha: "<<i->getFechaValidacion()<<endl;
