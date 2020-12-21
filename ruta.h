@@ -42,5 +42,4 @@ class Ruta{
 
 		inline string getSendero()const{return sendero_;}
 };
-
 #endif
